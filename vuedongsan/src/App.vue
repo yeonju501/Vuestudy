@@ -6,9 +6,18 @@
 <div>
   원룸샵
 </div>
-  <div v-for="r in products" :key="r">
-    <h4 >{{r}}</h4>
+  <div>
+    <h4> {{products[0]}}</h4>
     <p>50 만원</p>
+    <button >허위매물신고</button><span>신고수 : 0</span>
+  </div>
+  <div>
+    <h4> {{products[1]}}</h4>
+    <p>60 만원</p>
+  </div>
+  <div>
+    <h4> {{products[2]}}</h4>
+    <p>70 만원</p>
   </div>
 </template>
 
